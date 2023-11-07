@@ -11,6 +11,24 @@
             "src": "(.*)",
             "dest": "src/server.ts"
         }
+    ],
+    
+    "functions": ".",
+    "rewrites": [
+        {
+        "source": "(.*)",
+        "function": "$1"
+        },
+        {
+        "source": "(.*)",
+        "destination": "$1"
+        }
+    ],
+    "builds": [
+        {
+        "src": "prisma/schema.prisma",
+        "use": "@prisma/cli"
+        }
     ]
     }
-      
+    
