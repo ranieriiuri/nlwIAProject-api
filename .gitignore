@@ -1,3 +1,8 @@
 node_modules
 # Keep environment variables out of version control
 .env
+# Musics that i used on app tests
+toTestingMyApp.mp3
+toTestingMyAppII.mp3
+toTestingMyAppIII.mp3
+toTestingMyAppIV.mp3
