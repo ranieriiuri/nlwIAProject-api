@@ -11,6 +11,9 @@
             "src": "(.*)",
             "dest": "src/server.ts"
         }
-    ]
+    ],
+    "env": {
+        "DATABASE_URL": "postgres://ranieriiuri:EI3q8shXiZuK@ep-billowing-meadow-09573483.us-east-2.aws.neon.tech/dev"
+      }
     }
     
