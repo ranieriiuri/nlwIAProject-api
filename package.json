@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "tsx watch src/server.ts",
-    "build": "prisma generate",
-    "vercel-build": "npx prisma migrate deploy"
+    "build": "tsc && prisma generate",
+    "vercel-build": "npx prisma migrate deploy && prisma generate"
   },
   "keywords": [],
   "author": "ranieriiuri <iuriranierioliveira@gmail.com>",
