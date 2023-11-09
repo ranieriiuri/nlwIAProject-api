@@ -6,3 +6,11 @@ toTestingMyApp.mp3
 toTestingMyAppII.mp3
 toTestingMyAppIII.mp3
 toTestingMyAppIV.mp3
+pega-pega-convert.mp3
+
+#docker files
+Dockerfile
+docker-compose.yml
+
+#routes tests
+routesReqs.http

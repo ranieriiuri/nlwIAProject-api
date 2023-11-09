@@ -1,15 +1,18 @@
-FROM node:20
+FROM node:20-alpine
+
 WORKDIR /plasmator-api
-COPY package.json pnpm-lock.yaml /plasmator-api/
+
+COPY package.json ./
+
+RUN npm install
 
 COPY . .
 
-RUN npm install -g pnpm
-RUN pnpm install
-RUN pnpm build
+RUN npm run build
+
 EXPOSE 3333
 
-CMD [ "pnpm", "dev" ]
+CMD [ "npm", "start" ]
 
 
 
