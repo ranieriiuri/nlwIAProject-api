@@ -15,10 +15,10 @@
     "seed": "tsx prisma/seed.ts"
   },
   "devDependencies": {
-    "@types/node": "^20.6.2",
+    "@types/node": "^20.9.0",
     "dotenv": "^16.3.1",
     "prisma": "^5.5.2",
-    "tsx": "^3.12.10",
+    "tsx": "^3.14.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
@@ -26,6 +26,7 @@
     "@fastify/multipart": "^7.7.3",
     "@prisma/client": "5.5.2",
     "ai": "^2.2.13",
+    "aws-sdk": "^2.1493.0",
     "axios": "^1.5.0",
     "fastify": "^4.23.2",
     "openai": "^4.8.0",
